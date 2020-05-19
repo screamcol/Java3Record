@@ -31,10 +31,11 @@ public class Main {
         System.out.println(boxApple.compare(boxOrange));
         System.out.println(boxApple.compare(boxApple2));
         System.out.println(boxApple.compare(boxOrange2));
-//        System.out.println(boxOrange.getFruits());
-//        System.out.println(boxOrange2.getFruits());
-//        boxOrange.intersperse(boxOrange2);
-//        System.out.println(boxOrange.getFruits());
-//        System.out.println(boxOrange2.getFruits());
+
+        System.out.println(boxOrange.getFruits());
+        System.out.println(boxOrange2.getFruits());
+        boxOrange.intersperse(boxOrange2);
+        System.out.println(boxOrange.getFruits());
+        System.out.println(boxOrange2.getFruits());
     }
 }
